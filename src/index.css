@@ -1,0 +1,311 @@
+body{
+  margin: 0;
+  font-family: 'Zen Antique Soft', serif;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(80, 179, 0);
+  color: white;
+  font-weight: 900;
+  border-radius: 6px;
+}
+
+.logo {
+  height: 100px;
+
+}
+
+  header{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(31, 31, 31);
+ background-size: cover;
+  text-align: center;
+  color: white;
+  border-bottom: solid 5px rgb(187, 168, 2);
+  
+}
+
+form , label{
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  border: solid 2px black;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(240, 229, 208);
+
+  
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  flex-wrap: wrap;
+
+  
+}
+
+.card-model {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/107/667/original/modern-dark-clover-background-free-vector.jpg);
+  background-size: cover;
+  background-position: 60% 100%;
+  
+}
+
+.default-card-name {
+  border: 2px solid rgb(0, 0, 0);
+  background: 
+  linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+  url(https://image.ibb.co/jKByZn/tile_bg_1.jpg); 
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px/40px;
+  margin-bottom: 4px;
+}
+
+
+.card {
+  border: 1px solid black;
+ width: 300px;
+ height: 500px;
+ margin: 0 auto;
+ margin-top: 56px;
+ border-radius: 25px;
+ box-sizing: border-box;
+ box-shadow: -8px 9px 16px -3px gray;
+ background: #171314;
+}
+
+.especial-card {
+ border: 1px solid black;
+ width: 300px;
+ height: 500px;
+ margin: 0 auto;
+ margin-top: 56px;
+ border-radius: 25px;
+ box-sizing: border-box;
+ box-shadow: 0 0 60px rgb(255, 255, 255), 0 0 100px rgb(255, 217, 0);
+background-image: url(https://www.nasa.gov/sites/default/files/images/482251main_rosette_nebula_full.jpg);
+}
+
+.card-background {
+  height: 400px;
+  margin: 20px 20px 0 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  background-color: #bbb;
+ }
+
+ .card-frame {
+  z-index: 1;
+  position: relative;
+  height: 105%;
+  max-width: 90%;
+  top: 0.5%;
+  left: 4.5%;
+  display: flex;
+  flex-direction: column;
+ 
+ }
+
+ .img-container {
+  margin: auto;
+  display: flex;
+  border: solid 2px rgb(0, 0, 0);
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/27b14a59-fa47-4c49-9ab3-3449432ded1d/dbn2n57-426e2ffd-77ea-471a-9c95-85efeac611fa.jpg/v1/fill/w_1024,h_1271,q_75,strp/iop_god_by_xa_xa_xa_dbn2n57-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI3MSIsInBhdGgiOiJcL2ZcLzI3YjE0YTU5LWZhNDctNGM0OS05YWIzLTM0NDk0MzJkZWQxZFwvZGJuMm41Ny00MjZlMmZmZC03N2VhLTQ3MWEtOWM5NS04NWVmZWFjNjExZmEuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FZrBMmz4FPySRwGgPYhrrOAHBERu51lAD64oQn2KNUs);
+  background-size: cover;
+  margin-bottom: 3px;
+
+  
+}
+
+.default-card-image {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 10%;
+  
+ 
+ }
+
+ .default-card-att {
+  display: flex;
+  margin: auto;
+  height: 10px;
+  background: 
+  linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+  url(https://image.ibb.co/jKByZn/tile_bg_1.jpg); 
+  border-radius: 3px;
+  border: black solid 2px;
+  width: 96%;
+  height: 20px;
+  align-content: center;
+  margin-bottom: 10px;
+  
+  }
+
+  .card-description {
+    background: 
+    linear-gradient( 0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3) ), 
+    url(https://image.ibb.co/jKByZn/tile_bg_1.jpg); 
+    border: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .desc-box { 
+    overflow:hidden;
+    word-wrap: break-word;
+    font-size: 12px;
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    max-height: 50px;
+  }
+  
+  .default-card-name,
+  .default-card-rarity,
+  .img-container {
+    overflow: hidden;
+}
+
+ .trunfo-card {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 18px/40px;
+  background-color:rgba(32, 212, 0, 0.911);
+  padding: 2px;
+  color:white;
+  font-weight: 900;
+  position: absolute;
+  bottom: -25px;
+  left: 110px;
+
+
+}
+
+ .default-card-rarity {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 18px/40px;
+  position: absolute;
+  padding: 2px;
+  background-color:rgba(32, 212, 0, 0.911);
+  color:white;
+  font-weight: 900;
+  bottom: -25px
+  
+ }
+
+  input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border:solid 1px rgb(221, 218, 218)
+ }
+
+ select {
+  padding: 10px;
+  border: solid 1 px rgb(221, 218, 218);
+  border-radius: 5px;
+  background-color: white;
+ }
+
+ .filters {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+   background-color:black;
+   display: flex;
+   width: 100%;
+   color: white;
+   height: 100px;
+
+ }
+
+  .search-input {
+   padding: 10px;
+   border-radius: 4px;
+   border-color: rgb(240, 240, 240);
+
+ }
+
+ .rarity-select {
+   padding: 10px;
+ }
+
+ .trunfo-box {
+
+ }
+
+
+
+ .deck {
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 2px black;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: white;
+ }
+
+  .card-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+
+ .card-container button {
+   margin-top: 10px;
+   width: 100px;
+   border-radius: 5px;
+
+ }
+
+
+
+ button{
+   opacity: 0.8;
+   border: none;
+ }
+
+ .card:hover {
+height: 530px;
+box-shadow: 0 0 60px rgb(255, 255, 255), 0 0 100px rgb(90, 90, 90);
+transition: 1s;
+
+ }
+
+
+ button:hover{
+    opacity: 1;
+ }
