@@ -207,7 +207,7 @@ class App extends React.Component {
                       data-testid="delete-button"
                       onClick={ this.delete.bind(this, card) }
                     >
-                      exluir
+                      excluir
                     </button>
                   </div>))
 
