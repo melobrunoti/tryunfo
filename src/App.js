@@ -2,6 +2,7 @@ import React from 'react';
 import Form from './components/Form';
 import Card from './components/Card';
 import Filters from './components/Filters';
+import Dofus from './images/dofus.png'
 
 class App extends React.Component {
   constructor() {
@@ -140,7 +141,7 @@ class App extends React.Component {
     return (
       <main>
         <header>
-          <img className="logo" src="dofus.png" alt="logo" />
+          <img className="logo" src={Dofus} alt="logo" />
         </header>
         <div className="container">
           <Form
